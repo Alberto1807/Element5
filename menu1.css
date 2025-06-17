@@ -4,11 +4,22 @@ body {
 	font-family: Arial, sans-serif;
     background-image: url(fondo7.jpg);
 }
+.black{
+    position: absolute;
+    width: 1930px;
+    top: 0px;
+    height: 70px;
+    left: -10px;
+    background-color: rgb(7, 2, 2);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    }
 .text{
     position: absolute;
     left: 10px;
     font-size: 40px;
-    color: #000000;
+    color: #f7f7f7;
     text-align: left;
 }
 .text1{
@@ -17,7 +28,7 @@ body {
     position: absolute;
     left: 850px;
     top: 50px;
-    color: #000000;
+    color: #fcfcfc;
     text-align: center;
     padding-right: 300px;
     height: 1;
@@ -25,7 +36,7 @@ body {
 .btplanta{
     border-style: none;
     position: absolute;
-    top: 50px;
+    top: 90px;
     right: 290px;
     border-radius: 100px;
     width: 130px;
@@ -37,7 +48,7 @@ body {
 .btfiltrar{
     border-style: none;
     position: absolute;
-    top: 50px;
+    top: 90px;
     right: 120px;
     border-radius: 100px;
     width: 130px;
@@ -318,6 +329,18 @@ main {
     * {
         max-width: 100%;
         box-sizing: border-box;
+    }
+
+    .black{
+    position: absolute;
+    width: 1930px;
+    top: 0px;
+    height: 110px;
+    left: -10px;
+    background-color: rgb(7, 2, 2);
+    color: white;
+    text-align: center;
+    font-size: 50px;
     }
 
     .text{
